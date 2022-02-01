@@ -33,7 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const { isOpen, onToggle } = useDisclosure();
   const btnRef = React.useRef();
-  onToggle;
   return (
     <ChakraProvider theme={theme}>
       <Flex>
